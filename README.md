@@ -1,2 +1,2 @@
 # Downturn-Volatily
-A Python program to analyze portfolio drawdowns. It reads historical asset returns from Excel, lets users define portfolio weights, calculates weighted mean and standard deviation, and uses Monte Carlo simulations to predict future drawdowns. Results include key statistics and a visual distribution of simulated drawdowns.
+The program takes as input an Excel file named "Assets Return," containing the daily returns of the assets in the portfolio. It then prompts the user to assign weights to each asset, ensuring they sum to 1. Finally, it calculates the relative and maximum drawdown and uses Monte Carlo simulation to estimate the portfolio's average and maximum future drawdowns.
